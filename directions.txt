@@ -1,0 +1,46 @@
+/*
+Write a modularized, menu-driven program to  read a file with unknown number of records.
+
+-Input file has unknown number of records of inventory items, but no more than 100; one record per line in the following  order: 
+  -item ID
+  -item  name (one word)
+  -quantity on hand
+  -price 
+
+-All fields in the input file are separated by a tab (‘\t’) or a blank ( up to you)
+-No error checking of the data required
+-Create a menu which allows to
+  print inventory unsorted
+  
+  search  for an item by ID or name
+  
+  sort by any field: 
+    -item ID
+    -item  name (one word)
+    -quantity on hand
+    -or price. Write one function, that can sort by any field. Do not copy and paste sort code five times into the same function. Tip: use bubble sort. It is easier to modify.
+  
+  print a report with the following details:
+    -number of  unique items in the inventory
+    -total worth of the inventory
+  -quit the program
+
+-A user  should be able to run many as many times as user wants
+-Thoroughly test your program. Your grade partially depends on quality of your test data.
+-NO goto, continue, break (except for switch)
+-Clearly label the output
+-Well document your code (comments)
+-Include your test data
+
+Record sample:
+
+997196478 Stroller 25 134.78
+
+TO DO: 
+-create menus
+-create fake file to read
+
+-create sorting function
+-create report function
+
+*/
